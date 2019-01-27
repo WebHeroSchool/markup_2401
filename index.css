@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i&subset=cyrillic');
+
 body  {
 	background: url("http://gif-kartinki.ru/fony/fony_14.png");
 	box-shadow: inset 0px 0px 277px 0px #fff;
+	font-family: Arimo;
+	/*Применен ко всему документу, 
+	но ниже это наследуют лишь те элементы, 
+	у которых не указан специфический стиль*/
 }
 
 .header_1  {
@@ -12,7 +19,7 @@ body  {
 	display: inline-block;
 	padding-left: 10px;
 	color: white;
-	font: normal 1em Impact;
+	font: normal 1.1em Impact;
 	text-transform: uppercase;
 }
 
@@ -24,7 +31,8 @@ body  {
 }
 
 .header__line2  {
-	font: bold 1.3em Verdana;
+	font: bold 2em 'Fira Sans';
+	/*Применен к заголовку*/
 	letter-spacing: 1px;
 	color: white;
 	text-shadow: 1px 1px 1px black;
@@ -85,7 +93,7 @@ body  {
 	padding-left: 5%;
 	padding-right: 5%;
 	column-count: 4;
-	font: normal 0.8em Arial;
+	font-size: 0.9em;
 }
 .article p  {
 	text-indent: 1.5em;
